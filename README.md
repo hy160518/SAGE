@@ -4,7 +4,7 @@ Code repository accompanying the paper submission - implements a Master-Agent fr
 
 ## Setup
 
-**Requirements:** Python 3.10+
+**Requirements:** Python 3.10
 
 ```bash
 pip install -r requirements.txt
@@ -27,7 +27,3 @@ cp configs/api_keys.yaml.example configs/api_keys.yaml
 ## Data & Privacy
 
 See `configs/schemas/chat_messages.schema.json` for data format.
-
-## License
-
-MIT License
