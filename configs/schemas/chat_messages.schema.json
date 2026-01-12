@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ChatMessages",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "uuid": { "type": "string", "minLength": 1 },
+      "sender_id": { "type": "string" },
+      "sender_name": { "type": "string" },
+      "content": { "type": "string", "minLength": 1 },
+      "timestamp": { "oneOf": [ { "type": "string", "format": "date-time" }, { "type": "integer" } ] },
+      "channel": { "type": "string" },
+      "attachments": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "type": { "type": "string" },
+            "url": { "type": "string" },
+            "meta": { "type": "object" }
+          },
+          "required": ["type"]
+        }
+      },
+      "metadata": { "type": "object" }
+    },
+    "required": ["uuid", "content", "timestamp"],
+    "additionalProperties": true
+  }
+}
