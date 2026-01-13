@@ -147,11 +147,12 @@ class PipelineRunner:
             print(f"⚠ Failed to load checkpoint: {str(e)}")
             return None
     
-    def run(self, 
+        def run(self, 
             input_path: str = DEFAULT_INPUT,
             salt: str = "experiment_salt_v1",
             resume_from_checkpoint: bool = False,
-            run_full_pipeline: bool = False) -> Dict[str, Any]:
+            run_full_pipeline: bool = False,
+            baseline_mode: Optional[str] = None) -> Dict[str, Any]:
 
         self.stats.start_time = datetime.now()
         stage_start = time.time()
@@ -238,11 +239,16 @@ class PipelineRunner:
         
         dispatch_results = None
         fusion_results = None
+        baseline_results = None
         
         if run_full_pipeline:
             dispatch_results = self._run_dispatcher(cleaned)
             if dispatch_results:
                 fusion_results = self._run_fusion(dispatch_results)
+
+        # Optional: run baseline adapters for comparison
+        if baseline_mode in ("autogen", "llamaindex"):
+            baseline_results = self._run_baseline(baseline_mode, cleaned)
         
         self.stats.end_time = datetime.now()
         self._report_progress(PipelineStage.COMPLETE, 1.0, "Pipeline completed successfully!")
@@ -262,6 +268,8 @@ class PipelineRunner:
             result['dispatch_results'] = dispatch_results
         if fusion_results:
             result['fusion_results'] = fusion_results
+        if baseline_results:
+            result['baseline_results'] = baseline_results
         
         return result
     
@@ -305,6 +313,50 @@ class PipelineRunner:
             return results
         except Exception as e:
             self.stats.errors.append(f"Fusion failed: {str(e)}")
+            return None
+
+    def _run_baseline(self, mode: str, cleaned: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+        """Run one of the baselines (AutoGen-MAC or LlamaIndex-Workflows).
+
+        Note: In this runner, we only have cleaned text items. We map them to
+        the `text_entries` input expected by baselines, with empty voice/image
+        lists by default. Users can extend this by loading full multimodal data
+        via `ForensicDataLoader` and passing it in a custom entry point.
+        """
+        stage_start = time.time()
+        self._report_progress(PipelineStage.DISPATCH, 0.6, f"Running baseline: {mode}")
+        try:
+            data_dict = {
+                'text_entries': [
+                    {
+                        'type': 'text',
+                        'uuid': item.get('uuid', ''),
+                        'content': item.get('content', ''),
+                        'sender': item.get('sender', ''),
+                        'receiver': item.get('receiver', ''),
+                        'timestamp': item.get('timestamp', ''),
+                    }
+                    for item in cleaned
+                ],
+                'voice_entries': [],
+                'image_entries': []
+            }
+
+            if mode == 'autogen':
+                from src.baselines.autogen_mac import AutoGenMACBaseline
+                baseline = AutoGenMACBaseline(self.config)
+            elif mode == 'llamaindex':
+                from src.baselines.llamaindex_workflows import LlamaIndexWorkflowBaseline
+                baseline = LlamaIndexWorkflowBaseline(self.config)
+            else:
+                return None
+
+            outputs = baseline.run(data_dict)
+            self.stats.stage_times['baseline'] = time.time() - stage_start
+            self._save_checkpoint(PipelineStage.DISPATCH, {'baseline': mode, 'outputs': outputs}, 0.7, f"Baseline {mode} completed")
+            return outputs
+        except Exception as e:
+            self.stats.errors.append(f"Baseline {mode} failed: {str(e)}")
             return None
     
     def _resume_from_checkpoint(self, checkpoint: PipelineCheckpoint, 
