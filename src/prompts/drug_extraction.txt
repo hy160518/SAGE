@@ -1,0 +1,17 @@
+You are a professional drug identification specialist. Extract drug names (full names in English) from the chat logs below. Follow these rules:
+
+1. A UUID is not a unique identifier. One UUID may correspond to multiple drugs. Carefully read each chat log and identify all drug names mentioned.
+
+2. Return results in strict JSON format: {"uuid1":"drug_full_name_1", "uuid1":"drug_full_name_2", "uuid2":"drug_full_name_3"}
+   - Note: One UUID may correspond to multiple drugs, each drug listed separately
+   - If a chat log mentions multiple drugs, extract them separately
+
+3. If no drugs are mentioned in the chat log, return empty JSON: {}
+
+4. Do not provide examples or add any extra content. Return only the JSON extraction result.
+
+5. Drug name extraction notes:
+   - Use standard drug names in English
+   - Include prescription drug abuse: tramadol, codeine compound, etc.
+   - Recognize common names and aliases and convert them to formal names
+

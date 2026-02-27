@@ -1,0 +1,28 @@
+{
+  "Case_A": {
+    "case": "Case_A",
+    "task1_user_role": {
+      "prescriber": 0.698,
+      "recipient": 0.694,
+      "benign_user": 1.0
+    },
+    "task2_relationship": {
+      "precision": 0.308,
+      "recall": 0.859,
+      "f1": 0.454
+    }
+  },
+  "Case_B": {
+    "case": "Case_B",
+    "task1_user_role": {
+      "prescriber": 0.673,
+      "recipient": 0.673,
+      "benign_user": 1.0
+    },
+    "task2_relationship": {
+      "precision": 0.308,
+      "recall": 0.877,
+      "f1": 0.456
+    }
+  }
+}

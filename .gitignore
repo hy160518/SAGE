@@ -1,0 +1,9 @@
+DataCollector
+SAGE_V7
+2023-*
+.claude
+.venv
+__pycache__
+*.pyc
+*.pyo
+.vscode

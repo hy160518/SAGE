@@ -1,0 +1,25 @@
+[
+  {
+    "id": "1",
+    "name": "Device Information",
+    "tableIndex": 1
+  },
+  {
+    "id": "6",
+    "name": "Call Records",
+    "tableIndex": 6,
+    "parentId": "1"
+  },
+  {
+    "id": "10",
+    "name": "Contacts",
+    "tableIndex": 10,
+    "parentId": "1"
+  },
+  {
+    "id": "213",
+    "name": "WeChat",
+    "tableIndex": 213,
+    "parentId": "1"
+  }
+]

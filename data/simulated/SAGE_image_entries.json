@@ -1,0 +1,1213 @@
+[
+  {
+    "id": "image_00001",
+    "type": "image",
+    "category": "other",
+    "context": "Shipping manifest, delivery address, order confirmation",
+    "sender": "Li Fang",
+    "timestamp": "2023-11-18T04:42:00",
+    "path": "files/image_00001.jpg",
+    "entities": [],
+    "receiver": "Zhao Jun"
+  },
+  {
+    "id": "image_00002",
+    "type": "image",
+    "category": "drug_box",
+    "context": "Paracetamol 267mg, Manufacturer: ABC Pharma, Price: 44 CNY",
+    "sender": "He Hong",
+    "timestamp": "2023-12-06T20:25:00",
+    "path": "files/image_00002.jpg",
+    "entities": [
+      {
+        "name": "Paracetamol",
+        "type": "drug_name",
+        "quantity": "419mg"
+      },
+      {
+        "name": "ABC Pharma",
+        "type": "manufacturer"
+      },
+      {
+        "name": "40 CNY",
+        "type": "price"
+      }
+    ],
+    "receiver": "Wang Kai"
+  },
+  {
+    "id": "image_00003",
+    "type": "image",
+    "category": "drug_list",
+    "context": "Drug Price List: Prednisone 13 CNY, Ibuprofen 18 CNY, Omeprazole 10 CNY, Metformin 14 CNY",
+    "sender": "Yang Lei",
+    "timestamp": "2023-11-29T18:48:00",
+    "path": "files/image_00003.jpg",
+    "entities": [
+      {
+        "name": "Prednisone",
+        "type": "drug_name",
+        "price": "27 CNY"
+      },
+      {
+        "name": "Ibuprofen",
+        "type": "drug_name",
+        "price": "20 CNY"
+      },
+      {
+        "name": "Omeprazole",
+        "type": "drug_name",
+        "price": "16 CNY"
+      },
+      {
+        "name": "Metformin",
+        "type": "drug_name",
+        "price": "14 CNY"
+      }
+    ],
+    "receiver": "Wang Jian"
+  },
+  {
+    "id": "image_00004",
+    "type": "image",
+    "category": "drug_box",
+    "context": "Metoprolol 427mg, Manufacturer: ABC Pharma, Price: 28 CNY",
+    "sender": "Wang Jian",
+    "timestamp": "2023-12-03T03:18:00",
+    "path": "files/image_00004.jpg",
+    "entities": [
+      {
+        "name": "Metoprolol",
+        "type": "drug_name",
+        "quantity": "462mg"
+      },
+      {
+        "name": "ABC Pharma",
+        "type": "manufacturer"
+      },
+      {
+        "name": "39 CNY",
+        "type": "price"
+      }
+    ],
+    "receiver": "He Hong"
+  },
+  {
+    "id": "image_00005",
+    "type": "image",
+    "category": "drug_list",
+    "context": "Drug Price List: Azithromycin 24 CNY, Paracetamol 18 CNY, Amlodipine 10 CNY, Fluoxetine 15 CNY",
+    "sender": "Liu Fang",
+    "timestamp": "2023-11-17T18:18:00",
+    "path": "files/image_00005.jpg",
+    "entities": [
+      {
+        "name": "Azithromycin",
+        "type": "drug_name",
+        "price": "14 CNY"
+      },
+      {
+        "name": "Paracetamol",
+        "type": "drug_name",
+        "price": "18 CNY"
+      },
+      {
+        "name": "Amlodipine",
+        "type": "drug_name",
+        "price": "18 CNY"
+      },
+      {
+        "name": "Fluoxetine",
+        "type": "drug_name",
+        "price": "19 CNY"
+      }
+    ],
+    "receiver": "Ma Hui"
+  },
+  {
+    "id": "image_00006",
+    "type": "image",
+    "category": "drug_box",
+    "context": "Azithromycin 453mg, Manufacturer: ABC Pharma, Price: 38 CNY",
+    "sender": "Luo Yong",
+    "timestamp": "2023-10-31T13:44:00",
+    "path": "files/image_00006.jpg",
+    "entities": [
+      {
+        "name": "Azithromycin",
+        "type": "drug_name",
+        "quantity": "472mg"
+      },
+      {
+        "name": "ABC Pharma",
+        "type": "manufacturer"
+      },
+      {
+        "name": "49 CNY",
+        "type": "price"
+      }
+    ],
+    "receiver": "Zhou Yan"
+  },
+  {
+    "id": "image_00007",
+    "type": "image",
+    "category": "drug_list",
+    "context": "Drug Price List: Doxycycline 27 CNY, Panadol 16 CNY, Gabapentin 10 CNY, Amoxicillin 19 CNY, Omeprazole 15 CNY, Metformin 27 CNY",
+    "sender": "Yang Lei",
+    "timestamp": "2023-10-19T03:20:00",
+    "path": "files/image_00007.jpg",
+    "entities": [
+      {
+        "name": "Doxycycline",
+        "type": "drug_name",
+        "price": "18 CNY"
+      },
+      {
+        "name": "Panadol",
+        "type": "drug_name",
+        "price": "23 CNY"
+      },
+      {
+        "name": "Gabapentin",
+        "type": "drug_name",
+        "price": "10 CNY"
+      },
+      {
+        "name": "Amoxicillin",
+        "type": "drug_name",
+        "price": "26 CNY"
+      },
+      {
+        "name": "Omeprazole",
+        "type": "drug_name",
+        "price": "23 CNY"
+      },
+      {
+        "name": "Metformin",
+        "type": "drug_name",
+        "price": "18 CNY"
+      }
+    ],
+    "receiver": "Hu Qiang"
+  },
+  {
+    "id": "image_00008",
+    "type": "image",
+    "category": "other",
+    "context": "Shipping manifest, delivery address, order confirmation",
+    "sender": "Wang Lei",
+    "timestamp": "2023-10-12T07:16:00",
+    "path": "files/image_00008.jpg",
+    "entities": [],
+    "receiver": "Ma Yan"
+  },
+  {
+    "id": "image_00009",
+    "type": "image",
+    "category": "drug_box",
+    "context": "Ciprofloxacin 386mg, Manufacturer: ABC Pharma, Price: 50 CNY",
+    "sender": "Wang Kai",
+    "timestamp": "2023-11-25T11:07:00",
+    "path": "files/image_00009.jpg",
+    "entities": [
+      {
+        "name": "Ciprofloxacin",
+        "type": "drug_name",
+        "quantity": "490mg"
+      },
+      {
+        "name": "ABC Pharma",
+        "type": "manufacturer"
+      },
+      {
+        "name": "42 CNY",
+        "type": "price"
+      }
+    ],
+    "receiver": "Zhao Xin"
+  },
+  {
+    "id": "image_00010",
+    "type": "image",
+    "category": "drug_box",
+    "context": "Doxycycline 397mg, Manufacturer: ABC Pharma, Price: 19 CNY",
+    "sender": "Li Fang",
+    "timestamp": "2023-11-27T20:23:00",
+    "path": "files/image_00010.jpg",
+    "entities": [
+      {
+        "name": "Doxycycline",
+        "type": "drug_name",
+        "quantity": "250mg"
+      },
+      {
+        "name": "ABC Pharma",
+        "type": "manufacturer"
+      },
+      {
+        "name": "25 CNY",
+        "type": "price"
+      }
+    ],
+    "receiver": "Yang Lei"
+  },
+  {
+    "id": "image_00011",
+    "type": "image",
+    "category": "drug_list",
+    "context": "Drug Price List: Amlodipine 24 CNY, Ibuprofen 18 CNY, Paracetamol 27 CNY, Gabapentin 13 CNY",
+    "sender": "Wang Lei",
+    "timestamp": "2023-11-11T16:32:00",
+    "path": "files/image_00011.jpg",
+    "entities": [
+      {
+        "name": "Amlodipine",
+        "type": "drug_name",
+        "price": "18 CNY"
+      },
+      {
+        "name": "Ibuprofen",
+        "type": "drug_name",
+        "price": "17 CNY"
+      },
+      {
+        "name": "Paracetamol",
+        "type": "drug_name",
+        "price": "13 CNY"
+      },
+      {
+        "name": "Gabapentin",
+        "type": "drug_name",
+        "price": "19 CNY"
+      }
+    ],
+    "receiver": "He Hong"
+  },
+  {
+    "id": "image_00012",
+    "type": "image",
+    "category": "drug_box",
+    "context": "Escitalopram 369mg, Manufacturer: ABC Pharma, Price: 46 CNY",
+    "sender": "Wu Peng",
+    "timestamp": "2023-11-05T20:55:00",
+    "path": "files/image_00012.jpg",
+    "entities": [
+      {
+        "name": "Escitalopram",
+        "type": "drug_name",
+        "quantity": "378mg"
+      },
+      {
+        "name": "ABC Pharma",
+        "type": "manufacturer"
+      },
+      {
+        "name": "28 CNY",
+        "type": "price"
+      }
+    ],
+    "receiver": "Luo Ming"
+  },
+  {
+    "id": "image_00013",
+    "type": "image",
+    "category": "other",
+    "context": "Shipping manifest, delivery address, order confirmation",
+    "sender": "Ma Hui",
+    "timestamp": "2023-11-19T11:57:00",
+    "path": "files/image_00013.jpg",
+    "entities": [],
+    "receiver": "Luo Yong"
+  },
+  {
+    "id": "image_00014",
+    "type": "image",
+    "category": "drug_list",
+    "context": "Drug Price List: Cephalexin 30 CNY, Metformin 16 CNY, Sertraline 18 CNY, Panadol 24 CNY",
+    "sender": "Zhou Yan",
+    "timestamp": "2023-10-16T08:09:00",
+    "path": "files/image_00014.jpg",
+    "entities": [
+      {
+        "name": "Cephalexin",
+        "type": "drug_name",
+        "price": "11 CNY"
+      },
+      {
+        "name": "Metformin",
+        "type": "drug_name",
+        "price": "25 CNY"
+      },
+      {
+        "name": "Sertraline",
+        "type": "drug_name",
+        "price": "18 CNY"
+      },
+      {
+        "name": "Panadol",
+        "type": "drug_name",
+        "price": "15 CNY"
+      }
+    ],
+    "receiver": "Ma Yan"
+  },
+  {
+    "id": "image_00015",
+    "type": "image",
+    "category": "drug_list",
+    "context": "Drug Price List: Doxycycline 24 CNY, Amoxicillin 23 CNY, Gabapentin 17 CNY, Metoprolol 27 CNY, Azithromycin 20 CNY",
+    "sender": "Li Qiang",
+    "timestamp": "2023-10-29T12:27:00",
+    "path": "files/image_00015.jpg",
+    "entities": [
+      {
+        "name": "Doxycycline",
+        "type": "drug_name",
+        "price": "29 CNY"
+      },
+      {
+        "name": "Amoxicillin",
+        "type": "drug_name",
+        "price": "18 CNY"
+      },
+      {
+        "name": "Gabapentin",
+        "type": "drug_name",
+        "price": "25 CNY"
+      },
+      {
+        "name": "Metoprolol",
+        "type": "drug_name",
+        "price": "26 CNY"
+      },
+      {
+        "name": "Azithromycin",
+        "type": "drug_name",
+        "price": "18 CNY"
+      }
+    ],
+    "receiver": "Xu Qiang"
+  },
+  {
+    "id": "image_00016",
+    "type": "image",
+    "category": "other",
+    "context": "Shipping manifest, delivery address, order confirmation",
+    "sender": "Wu Peng",
+    "timestamp": "2023-11-23T21:37:00",
+    "path": "files/image_00016.jpg",
+    "entities": [],
+    "receiver": "Hu Qiang"
+  },
+  {
+    "id": "image_00017",
+    "type": "image",
+    "category": "other",
+    "context": "Shipping manifest, delivery address, order confirmation",
+    "sender": "Luo Yong",
+    "timestamp": "2023-12-23T09:09:00",
+    "path": "files/image_00017.jpg",
+    "entities": [],
+    "receiver": "Wang Tao"
+  },
+  {
+    "id": "image_00018",
+    "type": "image",
+    "category": "drug_list",
+    "context": "Drug Price List: Ciprofloxacin 27 CNY, Paracetamol 18 CNY, Losartan 22 CNY",
+    "sender": "Hu Qiang",
+    "timestamp": "2023-10-06T02:05:00",
+    "path": "files/image_00018.jpg",
+    "entities": [
+      {
+        "name": "Ciprofloxacin",
+        "type": "drug_name",
+        "price": "12 CNY"
+      },
+      {
+        "name": "Paracetamol",
+        "type": "drug_name",
+        "price": "10 CNY"
+      },
+      {
+        "name": "Losartan",
+        "type": "drug_name",
+        "price": "23 CNY"
+      }
+    ],
+    "receiver": "Zhao Xin"
+  },
+  {
+    "id": "image_00019",
+    "type": "image",
+    "category": "other",
+    "context": "Shipping manifest, delivery address, order confirmation",
+    "sender": "Ma Yan",
+    "timestamp": "2023-11-22T17:59:00",
+    "path": "files/image_00019.jpg",
+    "entities": [],
+    "receiver": "He Hong"
+  },
+  {
+    "id": "image_00020",
+    "type": "image",
+    "category": "drug_list",
+    "context": "Drug Price List: Amlodipine 28 CNY, Escitalopram 22 CNY, Amoxicillin 21 CNY",
+    "sender": "Ma Hui",
+    "timestamp": "2023-11-19T05:35:00",
+    "path": "files/image_00020.jpg",
+    "entities": [
+      {
+        "name": "Amlodipine",
+        "type": "drug_name",
+        "price": "30 CNY"
+      },
+      {
+        "name": "Escitalopram",
+        "type": "drug_name",
+        "price": "29 CNY"
+      },
+      {
+        "name": "Amoxicillin",
+        "type": "drug_name",
+        "price": "21 CNY"
+      }
+    ],
+    "receiver": "Wang Kai"
+  },
+  {
+    "id": "image_00021",
+    "type": "image",
+    "category": "other",
+    "context": "Shipping manifest, delivery address, order confirmation",
+    "sender": "Wang Kai",
+    "timestamp": "2023-10-22T22:42:00",
+    "path": "files/image_00021.jpg",
+    "entities": [],
+    "receiver": "Wang Tao"
+  },
+  {
+    "id": "image_00022",
+    "type": "image",
+    "category": "drug_box",
+    "context": "Azithromycin 492mg, Manufacturer: ABC Pharma, Price: 36 CNY",
+    "sender": "Zhao Xin",
+    "timestamp": "2023-12-30T17:27:00",
+    "path": "files/image_00022.jpg",
+    "entities": [
+      {
+        "name": "Azithromycin",
+        "type": "drug_name",
+        "quantity": "265mg"
+      },
+      {
+        "name": "ABC Pharma",
+        "type": "manufacturer"
+      },
+      {
+        "name": "22 CNY",
+        "type": "price"
+      }
+    ],
+    "receiver": "Yang Lei"
+  },
+  {
+    "id": "image_00023",
+    "type": "image",
+    "category": "drug_list",
+    "context": "Drug Price List: Azithromycin 25 CNY, Omeprazole 11 CNY, Fluoxetine 20 CNY, Ibuprofen 13 CNY, Amoxicillin 21 CNY, Metoprolol 24 CNY",
+    "sender": "Luo Ming",
+    "timestamp": "2023-12-16T13:49:00",
+    "path": "files/image_00023.jpg",
+    "entities": [
+      {
+        "name": "Azithromycin",
+        "type": "drug_name",
+        "price": "23 CNY"
+      },
+      {
+        "name": "Omeprazole",
+        "type": "drug_name",
+        "price": "20 CNY"
+      },
+      {
+        "name": "Fluoxetine",
+        "type": "drug_name",
+        "price": "26 CNY"
+      },
+      {
+        "name": "Ibuprofen",
+        "type": "drug_name",
+        "price": "25 CNY"
+      },
+      {
+        "name": "Amoxicillin",
+        "type": "drug_name",
+        "price": "14 CNY"
+      },
+      {
+        "name": "Metoprolol",
+        "type": "drug_name",
+        "price": "18 CNY"
+      }
+    ],
+    "receiver": "Ma Yan"
+  },
+  {
+    "id": "image_00024",
+    "type": "image",
+    "category": "drug_list",
+    "context": "Drug Price List: Amoxicillin 30 CNY, Azithromycin 16 CNY, Losartan 12 CNY, Prednisone 27 CNY",
+    "sender": "Zhu Lei",
+    "timestamp": "2023-10-05T22:05:00",
+    "path": "files/image_00024.jpg",
+    "entities": [
+      {
+        "name": "Amoxicillin",
+        "type": "drug_name",
+        "price": "17 CNY"
+      },
+      {
+        "name": "Azithromycin",
+        "type": "drug_name",
+        "price": "15 CNY"
+      },
+      {
+        "name": "Losartan",
+        "type": "drug_name",
+        "price": "23 CNY"
+      },
+      {
+        "name": "Prednisone",
+        "type": "drug_name",
+        "price": "21 CNY"
+      }
+    ],
+    "receiver": "Ma Yan"
+  },
+  {
+    "id": "image_00025",
+    "type": "image",
+    "category": "drug_box",
+    "context": "Sertraline 443mg, Manufacturer: ABC Pharma, Price: 34 CNY",
+    "sender": "Hu Qiang",
+    "timestamp": "2023-10-28T15:36:00",
+    "path": "files/image_00025.jpg",
+    "entities": [
+      {
+        "name": "Sertraline",
+        "type": "drug_name",
+        "quantity": "292mg"
+      },
+      {
+        "name": "ABC Pharma",
+        "type": "manufacturer"
+      },
+      {
+        "name": "16 CNY",
+        "type": "price"
+      }
+    ],
+    "receiver": "Wang Jian"
+  },
+  {
+    "id": "image_00026",
+    "type": "image",
+    "category": "drug_box",
+    "context": "Gabapentin 394mg, Manufacturer: ABC Pharma, Price: 20 CNY",
+    "sender": "Wang Lei",
+    "timestamp": "2023-11-17T16:09:00",
+    "path": "files/image_00026.jpg",
+    "entities": [
+      {
+        "name": "Gabapentin",
+        "type": "drug_name",
+        "quantity": "451mg"
+      },
+      {
+        "name": "ABC Pharma",
+        "type": "manufacturer"
+      },
+      {
+        "name": "45 CNY",
+        "type": "price"
+      }
+    ],
+    "receiver": "Ma Hui"
+  },
+  {
+    "id": "image_00027",
+    "type": "image",
+    "category": "drug_box",
+    "context": "Amlodipine 450mg, Manufacturer: ABC Pharma, Price: 18 CNY",
+    "sender": "Wang Jian",
+    "timestamp": "2023-12-02T07:18:00",
+    "path": "files/image_00027.jpg",
+    "entities": [
+      {
+        "name": "Amlodipine",
+        "type": "drug_name",
+        "quantity": "441mg"
+      },
+      {
+        "name": "ABC Pharma",
+        "type": "manufacturer"
+      },
+      {
+        "name": "15 CNY",
+        "type": "price"
+      }
+    ],
+    "receiver": "Wang Kai"
+  },
+  {
+    "id": "image_00028",
+    "type": "image",
+    "category": "drug_box",
+    "context": "Ciprofloxacin 282mg, Manufacturer: ABC Pharma, Price: 29 CNY",
+    "sender": "Zhao Jun",
+    "timestamp": "2023-11-26T11:17:00",
+    "path": "files/image_00028.jpg",
+    "entities": [
+      {
+        "name": "Ciprofloxacin",
+        "type": "drug_name",
+        "quantity": "460mg"
+      },
+      {
+        "name": "ABC Pharma",
+        "type": "manufacturer"
+      },
+      {
+        "name": "21 CNY",
+        "type": "price"
+      }
+    ],
+    "receiver": "Li Fang"
+  },
+  {
+    "id": "image_00029",
+    "type": "image",
+    "category": "drug_list",
+    "context": "Drug Price List: Panadol 30 CNY, Gabapentin 10 CNY, Escitalopram 23 CNY, Paracetamol 19 CNY, Ciprofloxacin 13 CNY",
+    "sender": "Hu Qiang",
+    "timestamp": "2023-10-21T17:52:00",
+    "path": "files/image_00029.jpg",
+    "entities": [
+      {
+        "name": "Panadol",
+        "type": "drug_name",
+        "price": "23 CNY"
+      },
+      {
+        "name": "Gabapentin",
+        "type": "drug_name",
+        "price": "15 CNY"
+      },
+      {
+        "name": "Escitalopram",
+        "type": "drug_name",
+        "price": "15 CNY"
+      },
+      {
+        "name": "Paracetamol",
+        "type": "drug_name",
+        "price": "28 CNY"
+      },
+      {
+        "name": "Ciprofloxacin",
+        "type": "drug_name",
+        "price": "21 CNY"
+      }
+    ],
+    "receiver": "Luo Yong"
+  },
+  {
+    "id": "image_00030",
+    "type": "image",
+    "category": "other",
+    "context": "Shipping manifest, delivery address, order confirmation",
+    "sender": "Wang Kai",
+    "timestamp": "2023-11-09T12:29:00",
+    "path": "files/image_00030.jpg",
+    "entities": [],
+    "receiver": "Wang Jian"
+  },
+  {
+    "id": "image_00031",
+    "type": "image",
+    "category": "other",
+    "context": "Shipping manifest, delivery address, order confirmation",
+    "sender": "UserA",
+    "timestamp": "2023-12-16T16:50:00",
+    "path": "files/image_00031.jpg",
+    "entities": [],
+    "receiver": "Zhou Yan"
+  },
+  {
+    "id": "image_00032",
+    "type": "image",
+    "category": "drug_box",
+    "context": "Gabapentin 428mg, Manufacturer: ABC Pharma, Price: 34 CNY",
+    "sender": "Zhu Lei",
+    "timestamp": "2023-10-27T07:27:00",
+    "path": "files/image_00032.jpg",
+    "entities": [
+      {
+        "name": "Gabapentin",
+        "type": "drug_name",
+        "quantity": "264mg"
+      },
+      {
+        "name": "ABC Pharma",
+        "type": "manufacturer"
+      },
+      {
+        "name": "19 CNY",
+        "type": "price"
+      }
+    ],
+    "receiver": "Zhao Jun"
+  },
+  {
+    "id": "image_00033",
+    "type": "image",
+    "category": "drug_box",
+    "context": "Cephalexin 364mg, Manufacturer: ABC Pharma, Price: 31 CNY",
+    "sender": "UserA",
+    "timestamp": "2023-10-10T12:47:00",
+    "path": "files/image_00033.jpg",
+    "entities": [
+      {
+        "name": "Cephalexin",
+        "type": "drug_name",
+        "quantity": "299mg"
+      },
+      {
+        "name": "ABC Pharma",
+        "type": "manufacturer"
+      },
+      {
+        "name": "32 CNY",
+        "type": "price"
+      }
+    ],
+    "receiver": "Liu Fang"
+  },
+  {
+    "id": "image_00034",
+    "type": "image",
+    "category": "drug_list",
+    "context": "Drug Price List: Paracetamol 29 CNY, Cephalexin 12 CNY, Sertraline 18 CNY, Amoxicillin 27 CNY, Ciprofloxacin 21 CNY, Losartan 14 CNY",
+    "sender": "Ma Yan",
+    "timestamp": "2023-11-26T16:43:00",
+    "path": "files/image_00034.jpg",
+    "entities": [
+      {
+        "name": "Paracetamol",
+        "type": "drug_name",
+        "price": "27 CNY"
+      },
+      {
+        "name": "Cephalexin",
+        "type": "drug_name",
+        "price": "21 CNY"
+      },
+      {
+        "name": "Sertraline",
+        "type": "drug_name",
+        "price": "26 CNY"
+      },
+      {
+        "name": "Amoxicillin",
+        "type": "drug_name",
+        "price": "24 CNY"
+      },
+      {
+        "name": "Ciprofloxacin",
+        "type": "drug_name",
+        "price": "13 CNY"
+      },
+      {
+        "name": "Losartan",
+        "type": "drug_name",
+        "price": "16 CNY"
+      }
+    ],
+    "receiver": "Liu Fang"
+  },
+  {
+    "id": "image_00035",
+    "type": "image",
+    "category": "drug_box",
+    "context": "Doxycycline 450mg, Manufacturer: ABC Pharma, Price: 24 CNY",
+    "sender": "Zhou Yan",
+    "timestamp": "2023-11-28T11:08:00",
+    "path": "files/image_00035.jpg",
+    "entities": [
+      {
+        "name": "Doxycycline",
+        "type": "drug_name",
+        "quantity": "297mg"
+      },
+      {
+        "name": "ABC Pharma",
+        "type": "manufacturer"
+      },
+      {
+        "name": "27 CNY",
+        "type": "price"
+      }
+    ],
+    "receiver": "Wang Lei"
+  },
+  {
+    "id": "image_00036",
+    "type": "image",
+    "category": "drug_list",
+    "context": "Drug Price List: Atorvastatin 15 CNY, Losartan 15 CNY, Azithromycin 27 CNY, Amlodipine 23 CNY, Panadol 17 CNY",
+    "sender": "Luo Ming",
+    "timestamp": "2023-11-03T14:54:00",
+    "path": "files/image_00036.jpg",
+    "entities": [
+      {
+        "name": "Atorvastatin",
+        "type": "drug_name",
+        "price": "13 CNY"
+      },
+      {
+        "name": "Losartan",
+        "type": "drug_name",
+        "price": "24 CNY"
+      },
+      {
+        "name": "Azithromycin",
+        "type": "drug_name",
+        "price": "14 CNY"
+      },
+      {
+        "name": "Amlodipine",
+        "type": "drug_name",
+        "price": "10 CNY"
+      },
+      {
+        "name": "Panadol",
+        "type": "drug_name",
+        "price": "20 CNY"
+      }
+    ],
+    "receiver": "Wang Kai"
+  },
+  {
+    "id": "image_00037",
+    "type": "image",
+    "category": "drug_list",
+    "context": "Drug Price List: Cephalexin 20 CNY, Amoxicillin 16 CNY, Atorvastatin 19 CNY, Doxycycline 13 CNY",
+    "sender": "Luo Yong",
+    "timestamp": "2023-10-14T08:42:00",
+    "path": "files/image_00037.jpg",
+    "entities": [
+      {
+        "name": "Cephalexin",
+        "type": "drug_name",
+        "price": "29 CNY"
+      },
+      {
+        "name": "Amoxicillin",
+        "type": "drug_name",
+        "price": "16 CNY"
+      },
+      {
+        "name": "Atorvastatin",
+        "type": "drug_name",
+        "price": "15 CNY"
+      },
+      {
+        "name": "Doxycycline",
+        "type": "drug_name",
+        "price": "27 CNY"
+      }
+    ],
+    "receiver": "Ma Yan"
+  },
+  {
+    "id": "image_00038",
+    "type": "image",
+    "category": "drug_box",
+    "context": "Cephalexin 487mg, Manufacturer: ABC Pharma, Price: 39 CNY",
+    "sender": "Xu Qiang",
+    "timestamp": "2023-11-09T15:20:00",
+    "path": "files/image_00038.jpg",
+    "entities": [
+      {
+        "name": "Cephalexin",
+        "type": "drug_name",
+        "quantity": "360mg"
+      },
+      {
+        "name": "ABC Pharma",
+        "type": "manufacturer"
+      },
+      {
+        "name": "45 CNY",
+        "type": "price"
+      }
+    ],
+    "receiver": "Liu Fang"
+  },
+  {
+    "id": "image_00039",
+    "type": "image",
+    "category": "other",
+    "context": "Shipping manifest, delivery address, order confirmation",
+    "sender": "Zhao Jun",
+    "timestamp": "2023-12-17T22:15:00",
+    "path": "files/image_00039.jpg",
+    "entities": [],
+    "receiver": "Zhu Lei"
+  },
+  {
+    "id": "image_00040",
+    "type": "image",
+    "category": "drug_box",
+    "context": "Ibuprofen 496mg, Manufacturer: ABC Pharma, Price: 32 CNY",
+    "sender": "Wu Peng",
+    "timestamp": "2023-10-01T09:10:00",
+    "path": "files/image_00040.jpg",
+    "entities": [
+      {
+        "name": "Ibuprofen",
+        "type": "drug_name",
+        "quantity": "419mg"
+      },
+      {
+        "name": "ABC Pharma",
+        "type": "manufacturer"
+      },
+      {
+        "name": "20 CNY",
+        "type": "price"
+      }
+    ],
+    "receiver": "Li Fang"
+  },
+  {
+    "id": "image_00041",
+    "type": "image",
+    "category": "drug_list",
+    "context": "Drug Price List: Prednisone 13 CNY, Amlodipine 28 CNY, Cephalexin 23 CNY, Fluoxetine 13 CNY",
+    "sender": "Yang Lei",
+    "timestamp": "2023-12-27T06:16:00",
+    "path": "files/image_00041.jpg",
+    "entities": [
+      {
+        "name": "Prednisone",
+        "type": "drug_name",
+        "price": "23 CNY"
+      },
+      {
+        "name": "Amlodipine",
+        "type": "drug_name",
+        "price": "22 CNY"
+      },
+      {
+        "name": "Cephalexin",
+        "type": "drug_name",
+        "price": "11 CNY"
+      },
+      {
+        "name": "Fluoxetine",
+        "type": "drug_name",
+        "price": "22 CNY"
+      }
+    ],
+    "receiver": "Wang Kai"
+  },
+  {
+    "id": "image_00042",
+    "type": "image",
+    "category": "other",
+    "context": "Shipping manifest, delivery address, order confirmation",
+    "sender": "Zhao Xin",
+    "timestamp": "2023-11-05T05:09:00",
+    "path": "files/image_00042.jpg",
+    "entities": [],
+    "receiver": "Xu Qiang"
+  },
+  {
+    "id": "image_00043",
+    "type": "image",
+    "category": "other",
+    "context": "Shipping manifest, delivery address, order confirmation",
+    "sender": "Xu Qiang",
+    "timestamp": "2023-10-25T19:48:00",
+    "path": "files/image_00043.jpg",
+    "entities": [],
+    "receiver": "Wang Kai"
+  },
+  {
+    "id": "image_00044",
+    "type": "image",
+    "category": "other",
+    "context": "Shipping manifest, delivery address, order confirmation",
+    "sender": "Ma Hui",
+    "timestamp": "2023-12-07T12:47:00",
+    "path": "files/image_00044.jpg",
+    "entities": [],
+    "receiver": "Zhu Lei"
+  },
+  {
+    "id": "image_00045",
+    "type": "image",
+    "category": "drug_box",
+    "context": "Ciprofloxacin 375mg, Manufacturer: ABC Pharma, Price: 28 CNY",
+    "sender": "Zhao Jun",
+    "timestamp": "2023-11-10T07:25:00",
+    "path": "files/image_00045.jpg",
+    "entities": [
+      {
+        "name": "Ciprofloxacin",
+        "type": "drug_name",
+        "quantity": "455mg"
+      },
+      {
+        "name": "ABC Pharma",
+        "type": "manufacturer"
+      },
+      {
+        "name": "44 CNY",
+        "type": "price"
+      }
+    ],
+    "receiver": "Wang Tao"
+  },
+  {
+    "id": "image_00046",
+    "type": "image",
+    "category": "other",
+    "context": "Shipping manifest, delivery address, order confirmation",
+    "sender": "Li Fang",
+    "timestamp": "2023-12-02T17:43:00",
+    "path": "files/image_00046.jpg",
+    "entities": [],
+    "receiver": "Yang Lei"
+  },
+  {
+    "id": "image_00047",
+    "type": "image",
+    "category": "drug_box",
+    "context": "Metoprolol 375mg, Manufacturer: ABC Pharma, Price: 37 CNY",
+    "sender": "Ma Yan",
+    "timestamp": "2023-10-29T22:19:00",
+    "path": "files/image_00047.jpg",
+    "entities": [
+      {
+        "name": "Metoprolol",
+        "type": "drug_name",
+        "quantity": "355mg"
+      },
+      {
+        "name": "ABC Pharma",
+        "type": "manufacturer"
+      },
+      {
+        "name": "39 CNY",
+        "type": "price"
+      }
+    ],
+    "receiver": "Zhou Yan"
+  },
+  {
+    "id": "image_00048",
+    "type": "image",
+    "category": "drug_box",
+    "context": "Paracetamol 367mg, Manufacturer: ABC Pharma, Price: 19 CNY",
+    "sender": "He Hong",
+    "timestamp": "2023-11-13T10:26:00",
+    "path": "files/image_00048.jpg",
+    "entities": [
+      {
+        "name": "Paracetamol",
+        "type": "drug_name",
+        "quantity": "466mg"
+      },
+      {
+        "name": "ABC Pharma",
+        "type": "manufacturer"
+      },
+      {
+        "name": "29 CNY",
+        "type": "price"
+      }
+    ],
+    "receiver": "Hu Qiang"
+  },
+  {
+    "id": "image_00049",
+    "type": "image",
+    "category": "drug_list",
+    "context": "Drug Price List: Metoprolol 24 CNY, Ibuprofen 22 CNY, Gabapentin 10 CNY, Aspirin 25 CNY, Omeprazole 10 CNY, Ciprofloxacin 18 CNY",
+    "sender": "He Hong",
+    "timestamp": "2023-10-06T23:43:00",
+    "path": "files/image_00049.jpg",
+    "entities": [
+      {
+        "name": "Metoprolol",
+        "type": "drug_name",
+        "price": "16 CNY"
+      },
+      {
+        "name": "Ibuprofen",
+        "type": "drug_name",
+        "price": "29 CNY"
+      },
+      {
+        "name": "Gabapentin",
+        "type": "drug_name",
+        "price": "14 CNY"
+      },
+      {
+        "name": "Aspirin",
+        "type": "drug_name",
+        "price": "23 CNY"
+      },
+      {
+        "name": "Omeprazole",
+        "type": "drug_name",
+        "price": "21 CNY"
+      },
+      {
+        "name": "Ciprofloxacin",
+        "type": "drug_name",
+        "price": "11 CNY"
+      }
+    ],
+    "receiver": "Li Fang"
+  },
+  {
+    "id": "image_00050",
+    "type": "image",
+    "category": "drug_box",
+    "context": "Ciprofloxacin 300mg, Manufacturer: ABC Pharma, Price: 45 CNY",
+    "sender": "Zhao Jun",
+    "timestamp": "2023-10-07T11:57:00",
+    "path": "files/image_00050.jpg",
+    "entities": [
+      {
+        "name": "Ciprofloxacin",
+        "type": "drug_name",
+        "quantity": "475mg"
+      },
+      {
+        "name": "ABC Pharma",
+        "type": "manufacturer"
+      },
+      {
+        "name": "27 CNY",
+        "type": "price"
+      }
+    ],
+    "receiver": "Wang Jian"
+  }
+]

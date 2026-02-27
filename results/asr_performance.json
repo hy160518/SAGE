@@ -1,0 +1,20 @@
+{
+  "system": "ASR_Evaluation",
+  "metric": "CER (Character Error Rate)",
+  "cases": {
+    "Case_A": {
+      "case": "Case_A",
+      "num_samples": 100,
+      "avg_cer": 0.1287,
+      "min_cer": 0.0556,
+      "max_cer": 0.1429
+    },
+    "Case_B": {
+      "case": "Case_B",
+      "num_samples": 100,
+      "avg_cer": 0.1265,
+      "min_cer": 0.0833,
+      "max_cer": 0.1429
+    }
+  }
+}

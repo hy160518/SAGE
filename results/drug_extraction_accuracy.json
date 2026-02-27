@@ -1,0 +1,18 @@
+{
+  "task": "Drug_Extraction_from_Images",
+  "metric": "Accuracy",
+  "cases": {
+    "Case_A": {
+      "case": "Case_A",
+      "total_images": 433,
+      "drug_images": 336,
+      "accuracy": 1.0
+    },
+    "Case_B": {
+      "case": "Case_B",
+      "total_images": 433,
+      "drug_images": 335,
+      "accuracy": 1.0
+    }
+  }
+}

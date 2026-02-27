@@ -1,0 +1,17 @@
+{
+  "case_id": "2023-TEST-CASE-A",
+  "device": {
+    "model": "Huawei P50 Pro",
+    "manufacturer": "Huawei",
+    "os_version": "HarmonyOS 3.0"
+  },
+  "extraction_time": "2023-11-15T14:30:00",
+  "data_summary": {
+    "text_messages": 3000,
+    "voice_messages": 400,
+    "image_messages": 50,
+    "call_records": 500,
+    "contacts": 100
+  },
+  "description": "Simulated forensic data for SAGE paper reproduction. Based on Case A distribution."
+}
